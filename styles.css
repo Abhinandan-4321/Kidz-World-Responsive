@@ -144,12 +144,12 @@
         background-size: 100%;
     }
     .headtxt{
-        font-size: 40px;
+        font-size: 30px;
         color:white
     }
     #txtdiv{
         margin-left: 80px;  
-        padding-top: 12px;
+        padding-top: 10px;
     }
     #books-section{
         position: relative;
