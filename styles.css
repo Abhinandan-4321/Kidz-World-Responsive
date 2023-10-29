@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+.logo{
+    height: 40px;
+    margin-left: 50px;
+}
+#text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    bottom: 16px;
+    font-size: 20px;
+}
+#cart{
+    height: 40px;
+    margin-left:1000px ;
+}
+#headbg{
+    background-image: url("./assets/kw-background.png");
+    background-size: cover;
+    height: 400px;    
+    /* display: flex; */
+}
+.headtxt{
+    font-size: 80px;
+    color: white; 
+}
+#txtdiv{
+    margin-left: 80px;  
+    padding-top: 35px;
+}
+.newandnow{
+    font-size: 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+.booksize{
+    height: 280px;
+}
+#books-section{
+    position: relative;
+    top: 150px;
+}
+.book-text-size{
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+.author-name{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: grey;
+    font-size: small;
+}
+.button{
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    height: 24px;
+    width: 65px;
+    position: relative;
+    left: 150px;
+    top: -23px;
+
+}
+
+.text_in_button{
+    color: white;
+    position: relative;
+    bottom: 7px;
+    font-weight: 500;
+
+}
+.rate{
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#containerdiv1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.button1{
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    height: 22px;
+    width: 65px;
+    position: relative;
+    left: 150px;
+    top: -22px;
+}
+.gamesection{
+    position: relative;
+    top: 196px;
+}
+.gamesize{
+    height: 200px;
+    
+}
+.containerdiv2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.handsize{
+    height: 230px;
+}
+.handmadesection{
+    position: relative;
+    top: 242px;
+}
+.containerdiv3{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    background-color: black;
+    height: 200px;
+    position: relative;
+    top: 246px;
+}
+
+
+@media (max-width: 600px){
+    .logo{
+        height: 40px;
+        margin-left: 15px;
+    }
+    
+    #cart{
+        height: 40px;
+        margin-left:130px ;
+    }
+    
+    #headbg{
+        background-image: url("./assets/kw-background.png");
+        height: 200px;
+        /* background-size: cover; */
+    }
+    .headtxt{
+        font-size: 40px;
+        color:white
+    }
+    #txtdiv{
+        margin-left: 80px;  
+        padding-top: 12px;
+    }
+    #books-section{
+        position: relative;
+        top: 70px;
+    }
+
+    .booksize{
+        height: 300px
+    }
+    .book-text-size{
+        font-size: 20px;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+    }
+
+    .rate{
+        font-size: 18px;
+        font-weight: 800;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .author-name{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: grey;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .button{
+        border: none;
+        border-radius: 4px;
+        padding: 4px;
+        height: 28px;
+        width: 65px;
+        position: relative;
+        left: 150px;
+        top: -23px;
+    
+    }
+
+    #containerdiv1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .containerdiv2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .gamesection{
+        position: relative;
+        top: 110px;
+    }
+    h3{
+        font-size: 45px;
+
+    }
+
+    .containerdiv3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #foot{
+        position: relative;
+        left: -80px;
+    }
+   
+    #hi{
+        position: relative;
+        right: 900px;
+        font-size: 17px;
+    }
+    
+
+
+}
+
