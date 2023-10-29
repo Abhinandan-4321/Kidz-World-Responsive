@@ -140,7 +140,8 @@
     #headbg{
         background-image: url("./assets/kw-background.png");
         height: 200px;
-        /* background-size: cover; */
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
     .headtxt{
         font-size: 40px;
